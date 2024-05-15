@@ -72,6 +72,72 @@ var swiper2 = new Swiper(".mySwiper2", {
   },
 });
 
+var swiper3 = new Swiper(".mySwiper3", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper4 = new Swiper(".mySwiper4", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper5 = new Swiper(".mySwiper5", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper6 = new Swiper(".mySwiper6", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper7 = new Swiper(".mySwiper7", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
+var swiper8 = new Swiper(".mySwiper8", {
+  direction: "vertical",
+  spaceBetween: 50,
+  loop: true,
+  pagination: {
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+  },
+});
+
 const year = new Date().getFullYear();
 
 yearDiv.innerHTML = year;
