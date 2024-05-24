@@ -532,6 +532,7 @@ nav #hamburger > span:not(:last-child) {
   transition: all 200ms ease-in-out;
   border-bottom: 1px solid;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 .about .skills ul.container li::marker {
   font-size: 30px;
