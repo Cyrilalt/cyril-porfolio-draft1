@@ -18,16 +18,22 @@ mobileLinks.forEach(link => {
   link.addEventListener('click', ()=> {
     body.classList.remove('burger');
   })
-})
+});
+
 
 //skills drop down
-skillsDivs.forEach(skill=> {
-  const moreBtn = skill.children[0].children[1].children[0].children[1];
 
-  moreBtn.addEventListener('click', ()=> {
-    skill.classList.toggle('active');
-  });
+const toggleInfo = (element)=> {
+  let isActive = element.classList.contains('active');
+skillsDivs.forEach(skill=> {
+  skill.classList.remove('active');
 });
+if(!isActive) {
+  element.classList.add('active');
+}
+}
+
+
 
 //pop up settings
 designBtns.forEach(btn => {
